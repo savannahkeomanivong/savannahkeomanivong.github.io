@@ -71,7 +71,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '9') {
 
     fill(300, 100, 0, 80);
-    rect(mouseX, mouseY, 40, 40);
+    rect(mouseX, mouseY, 80, 40);
   } else if (toolChoice == '0') {
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
